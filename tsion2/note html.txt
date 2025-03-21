@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devrona Optics</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="images (2).jfif" alt="Devrona Optics Logo">
+            <h2>Devrona Optics</h2>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <header id="home">
+        <h1> <marquee behavior="name" direction="left">Welcome to Devrona Optics</marquee></h1>
+        <p> see your dream </p>
+        <button id="ctaButton">Explore Now</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2> የምንሰጣቸው አገልግሎቶች  </h2>
+        <p> <ul>
+            <li></li>በ ሀኪም ትህዛዝ መነፅር እንሰራለን ።<br>
+            ከተሟላ ነፃ የ ዐይን ምርመራ። <br>
+            ነፃ የማማከር አገልግሎት<br>
+            የመነፅር ስራ <br>
+            እንደየ ፊት ገፅታዎ የሚሆን frame እንዲሁም እንደየ ቁጥሮ የታዘዙ lens <br></ul> </li>
+        
+             </p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <img src="frame 11.jfif" alt=""srcset=""width=400> <p>
+            <ul>
+                    <p> Devrona Pro Lenses <br>
+                        Devrona Ultra Frames <br>
+                        Devrona ClearView Binoculars  <br>
+                        Devrona SolarShade Sunglasses  </p>
+            </ul>
+
+        <img src="High-Index-Lenses.jpg" alt="" srcset=""width=360> <p> high index lens </p>
+        <ul>
+            <li>Devrona Pro Lenses</li>
+            <li>Devrona Ultra Frames</li>
+            <li>Devrona ClearView Binoculars</li>
+            <li>Devrona SolarShade Sunglasses</li>
+
+            </li>
+        </ul>
+
+        <img src="bluecut t.jpg" alt=""srcset=""width=400>  <li>Devrona Pro Lenses</li>
+            <li>Devrona Ultra Frames</li>
+            <li>Devrona ClearView Binoculars</li>
+            <li>Devrona SolarShade Sunglasses</li>  <p>blue cut </p>
+        
+       
+        <img src="polo.jpg" alt=""srcset=""width=400> <p>polorized </p>
+        
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p> call <br> 097877778 <br> 090000000.</p>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Devrona Optics. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+css
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(backg3.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #98dc22;
+}
+
+/* Navigation Bar */
+nav {
+    color: #2f9194;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 43, 43);
+    padding: 10px 20px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #8cdbed;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #21f400;
+}
+
+/* Header Section */
+header {
+   color: #8ac3ef;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(49, 35, 35, 0.5);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00bcd4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #00a71c;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    background-color:
+    background-attachment: :-moz-full-screen;
+    margin: 20px 0;
+}
+
+section h2 {
+   color: #000000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background: #5fd7f5;
+}
+
+section p {
+   color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+/* Products Section */
+section{
+    color: #25d890;
+    
+    
+}
+/*About Section*/
+ul{
+    color: rgb(51, 11, 252);
+    text-align:center;
+    font-size: 100%; 
+    
+}

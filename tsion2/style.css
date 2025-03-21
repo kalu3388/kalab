@@ -1,0 +1,31 @@
+header{background-color: rgb(115, 172, 221);}
+header a{text-decoration: none; color: rgb(85, 222, 30)}
+.nav a{ text-decoration: none; padding: 10px; font-size: 18px;color: blue;}
+.nav {padding: 10px;text-align: right;}
+.nav a:hover{color: rgb(226, 43, 43);}
+main{height: 700px;}
+footer{background-color: rgb(139, 22, 168);height: 150px;color: darkorange;padding: 10px;}
+footer{padding-top: 20px;}
+footer a{color: #4ad81a;}
+.fotterright{float:right;text-align: center;}
+.fotterleft{float: left;margin-top: 20px;margin-left: 30px;font-size: 18px;}
+/* styles for home page */
+.mainleft{float: left;margin-top: 100px;padding-left: 135px;}
+.fullstack{padding-left: 20px;}
+.mainright{float: right;margin-top: 25px;margin-right: 150px;}
+.brandname{font-size: 70px; margin-bottom: 0px;}
+/*style for about page*/
+.aboutleftside{background-color: rgb(33, 158, 200);width: 250px;height: 280px; border-radius: 10px;padding: 10px;text-align: justify;font-size: 15px;float: left;} 
+    {border-radius: 10px; padding: 20px; text-align: justify; font: :left;}
+    .aboutleftside{ margin-top: 30px;}
+    .aboutcenterside{float: right; background-color: rgb(11, 11, 13); margin-left: 5px; margin-right: 5px;
+      width: 300px; height: 280px; border-radius: 10px; padding: 20px;
+      margin-top: 30px; text-align: justify; font-size: 20px; color: lightslategrey;}
+    .aboutleftside p{ margin-top: 20px;}
+    .aboutrightside{background-color: rgb(9, 133, 0); width: 300px; height: 280px;
+       border-radius: 10px; padding: 20px; text-align: center; color: darkslategrey;
+       font-size: 20px; float: right; margin-left: 3px; margin-top: 30px;}
+       .blogimage1{float: right;}
+       .blogimage2{float: left;}
+       .blogimage3{float: none;}
+       .contact{color: #c01818;float: inline-start;}
